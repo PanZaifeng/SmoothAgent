@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node / frontend
+node_modules/
+.pnpm-store/
+dist/
+build/
+.next/
+coverage/
+
+# Local environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Experiment outputs and logs
+runs/
+outputs/
+logs/
+*.log
+*.pid
+
+# Large/local assets
+/models/
+/checkpoints/
+/*.safetensors
+/*.bin
+/*.pt
+/*.pth
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Local agent/tool state
+.claude/
+.codex/
+*.tmp
